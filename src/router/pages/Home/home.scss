@@ -1,0 +1,93 @@
+.home {
+    &-header {
+        margin: 30px;
+        text-align: center;
+
+        &-icon {
+
+            font-size: 30px;
+
+            &-item {
+                background: #d3d3d6;
+                padding: 20px;
+                border-radius: 50%;
+            }
+        }
+
+        &-title {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        &-description {
+            font-size: 18px;
+            color: #717182;
+        }
+    }
+
+    &-characteristics {
+        text-align: center;
+        padding: 10px;
+
+        &-item {
+            height: 180px;
+            background: #eeeeee;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px #d3d3d6;
+            border: 1px solid #d3d3d6;
+            margin: 15px;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+
+            &-icon {
+                font-size: 20px;
+                padding: 10px;
+                border-radius: 10px;
+
+                &.icon {
+                    &-1 {
+                        background: #DBEAFE;
+                        color: #1E3A8A;
+                    }
+
+                    &-2 {
+                        background: #D4F4E0;
+                        color: #166534;
+                    }
+
+                    &-3 {
+                        background: #F3E8FF;
+                        color: #7E22CE;
+                    }
+
+                    &-4 {
+                        background: #F6E5CD;
+                        color: #78350F;
+                    }
+                }
+
+
+            }
+
+            p {
+                color: #717182;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            &:hover {
+                transform: translateY(-5px);
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+
+}
