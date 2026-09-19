@@ -1,4 +1,4 @@
-const API_DOMAIN = 'http://localhost:3001/';
+const API_DOMAIN = 'https://quizappapi-0g6w.onrender.com/';
 export const get = async (path) => {
     const res = await fetch(`${API_DOMAIN}${path}`)
     const data = await res.json();
